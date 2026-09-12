@@ -1,0 +1,52 @@
+Alex Morgan
+Dallas, TX | alex.morgan@email.com | +1 (555) 123-4567 | linkedin.com/in/alexmorgan | US Citizen
+
+PROFESSIONAL SUMMARY
+Senior Java Developer with 8+ years of extensive experience in developing high-throughput, enterprise distributed backend systems and microservices architectures. Specialized in Java 17+, Spring Boot, Microservices, Apache Kafka, Docker, Kubernetes, and AWS cloud environments. Seeking Corp-to-Corp (C2C) consulting roles with immediate availability.
+
+TECHNICAL SKILLS
+• Programming Languages: Java (8/11/17/21), SQL, Python, Bash
+• Frameworks & Libraries: Spring Boot, Spring Cloud, Spring Security, Hibernate, JPA, JUnit 5, Mockito
+• Cloud & DevOps: AWS (EC2, ECS, EKS, Lambda, S3, RDS, CloudWatch), Docker, Kubernetes, Jenkins CI/CD, Terraform
+• Messaging & Streaming: Apache Kafka, RabbitMQ
+• Databases: PostgreSQL, MySQL, MongoDB, Redis
+• Architecture & Practices: Microservices, RESTful APIs, Event-Driven Architecture, SOLID, Agile/Scrum
+
+PROFESSIONAL EXPERIENCE
+
+Senior Java Developer (C2C Consultant)
+Infosys Technologies | Dallas, TX | Jan 2022 – Present
+• Architected and developed 15+ resilient microservices using Java 17, Spring Boot, and Spring Cloud for enterprise FinTech clients, improving transaction throughput by 40%.
+• Designed event-driven architectures with Apache Kafka handling 3M+ daily asynchronous messages with zero data loss.
+• Led containerization and deployment of microservices on AWS ECS and Kubernetes (EKS) with automated Jenkins CI/CD pipelines.
+• Optimized PostgreSQL database queries and implemented Redis caching, reducing API response times by 35%.
+• Mentored 6 junior engineers on microservices best practices, domain-driven design, and test-driven development (TDD).
+
+Java Backend Engineer
+TechCore Solutions | Houston, TX | Mar 2019 – Dec 2021
+• Built and deployed secure, scalable RESTful APIs utilizing Spring Boot, Spring Security (OAuth2/JWT), and Hibernate.
+• Integrated AWS cloud infrastructure including S3 for document storage, RDS for relational persistence, and CloudWatch for monitoring.
+• Authored comprehensive unit and integration test suites using JUnit 5 and Mockito, raising code coverage from 62% to 88%.
+• Collaborated in bi-weekly Agile sprints to deliver enterprise billing and payment gateway integrations.
+
+Software Developer
+DataSystems Inc | Austin, TX | Jun 2016 – Feb 2019
+• Maintained and enhanced core enterprise Java applications and internal operational tools.
+• Migrated legacy monolithic services into modular Spring MVC components.
+• Managed MySQL schema migrations and resolved performance bottlenecks.
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Texas at Austin | Graduated 2016
+
+CERTIFICATIONS
+• AWS Certified Solutions Architect – Associate (2023)
+• Oracle Certified Professional: Java SE 11 Developer (2022)
+
+CANDIDATE DETAILS FOR C2C
+• Current Location: Dallas, TX
+• Work Authorization: US Citizen
+• Availability: Immediate / 2 weeks
+• Total Experience: 8+ Years
+• Contract Type: C2C (Corp-to-Corp)
+• Expected Rate: $75 - $85/hr (Negotiable)

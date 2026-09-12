@@ -1,0 +1,93 @@
+{
+  "candidate_profile": {
+    "candidate_name": "Alex Morgan",
+    "email": "alex.morgan@email.com",
+    "phone": "+1 (555) 123-4567",
+    "linkedin": "https://linkedin.com/in/alexmorgan",
+    "location": "Dallas, TX",
+    "work_authorization": "US Citizen",
+    "availability": "Immediate / 2 weeks",
+    "total_experience": "8+ Years",
+    "expected_salary": "$75 - $85/hr (Negotiable)",
+    "job_title": "Senior Java Developer",
+    "search_query": "\"Senior Java Developer\" C2C -W2 -Full-Time -Bench -Sales -Hotlist",
+    "raw_text": "Alex Morgan\nDallas, TX | alex.morgan@email.com | +1 (555) 123-4567 | linkedin.com/in/alexmorgan | US Citizen\n\nPROFESSIONAL SUMMARY\nSenior Java Developer with 8+ years of extensive experience in developing high-throughput, enterprise distributed backend systems and microservices architectures. Specialized in Java 17+, Spring Boot, Microservices, Apache Kafka, Docker, Kubernetes, and AWS cloud environments. Seeking Corp-to-Corp (C2C) consulting roles with immediate availability.\n\nTECHNICAL SKILLS\n\u2022 Programming Languages: Java (8/11/17/21), SQL, Python, Bash\n\u2022 Frameworks & Libraries: Spring Boot, Spring Cloud, Spring Security, Hibernate, JPA, JUnit 5, Mockito\n\u2022 Cloud & DevOps: AWS (EC2, ECS, EKS, Lambda, S3, RDS, CloudWatch), Docker, Kubernetes, Jenkins CI/CD, Terraform\n\u2022 Messaging & Streaming: Apache Kafka, RabbitMQ\n\u2022 Databases: PostgreSQL, MySQL, MongoDB, Redis\n\u2022 Architecture & Practices: Microservices, RESTful APIs, Event-Driven Architecture, SOLID, Agile/Scrum\n\nPROFESSIONAL EXPERIENCE\n\nSenior Java Developer (C2C Consultant)\nInfosys Technologies | Dallas, TX | Jan 2022 \u2013 Present\n\u2022 Architected and developed 15+ resilient microservices using Java 17, Spring Boot, and Spring Cloud for enterprise FinTech clients, improving transaction throughput by 40%.\n\u2022 Designed event-driven architectures with Apache Kafka handling 3M+ daily asynchronous messages with zero data loss.\n\u2022 Led containerization and deployment of microservices on AWS ECS and Kubernetes (EKS) with automated Jenkins CI/CD pipelines.\n\u2022 Optimized PostgreSQL database queries and implemented Redis caching, reducing API response times by 35%.\n\u2022 Mentored 6 junior engineers on microservices best practices, domain-driven design, and test-driven development (TDD).\n\nJava Backend Engineer\nTechCore Solutions | Houston, TX | Mar 2019 \u2013 Dec 2021\n\u2022 Built and deployed secure, scalable RESTful APIs utilizing Spring Boot, Spring Security (OAuth2/JWT), and Hibernate.\n\u2022 Integrated AWS cloud infrastructure including S3 for document storage, RDS for relational persistence, and CloudWatch for monitoring.\n\u2022 Authored comprehensive unit and integration test suites using JUnit 5 and Mockito, raising code coverage from 62% to 88%.\n\u2022 Collaborated in bi-weekly Agile sprints to deliver enterprise billing and payment gateway integrations.\n\nSoftware Developer\nDataSystems Inc | Austin, TX | Jun 2016 \u2013 Feb 2019\n\u2022 Maintained and enhanced core enterprise Java applications and internal operational tools.\n\u2022 Migrated legacy monolithic services into modular Spring MVC components.\n\u2022 Managed MySQL schema migrations and resolved performance bottlenecks.\n\nEDUCATION\nBachelor of Science in Computer Science\nUniversity of Texas at Austin | Graduated 2016\n\nCERTIFICATIONS\n\u2022 AWS Certified Solutions Architect \u2013 Associate (2023)\n\u2022 Oracle Certified Professional: Java SE 11 Developer (2022)\n\nCANDIDATE DETAILS FOR C2C\n\u2022 Current Location: Dallas, TX\n\u2022 Work Authorization: US Citizen\n\u2022 Availability: Immediate / 2 weeks\n\u2022 Total Experience: 8+ Years\n\u2022 Contract Type: C2C (Corp-to-Corp)\n\u2022 Expected Rate: $75 - $85/hr (Negotiable)\n"
+  },
+  "search_query": "\"Senior Java Developer\" C2C -W2 -Full-Time -Bench -Sales -Hotlist",
+  "stats": {
+    "total_applications": 4,
+    "sent_applications": 4,
+    "duplicates_prevented": 0,
+    "total_recruiters": 4
+  },
+  "sample_applications_logged": [
+    {
+      "id": 4,
+      "candidate_name": "Alex Morgan",
+      "recruiter_name": "Michael Torres",
+      "recruiter_email": "michael.t@datacore.io",
+      "company": "DataCore Technologies",
+      "job_title": "Java Backend Developer",
+      "job_location": "Austin, TX",
+      "post_url": "https://www.linkedin.com/posts/michaelt-datacore-java-backend-c2c-34190",
+      "job_description": "Hiring: Java Backend Developer for C2C contract.\nDirect recruiter post. Must be on C2C. W2 applicants please do not apply.\nRequirements: 6+ years Java/Spring Boot development, AWS cloud experience, relational database tuning.\nEmail resumes to michael.t@datacore.io",
+      "submission_date": "2026-09-12T12:05:58.924723",
+      "email_status": "Draft Prepared / Simulated",
+      "resume_filename": "Alex_Morgan_Java_Backend_Developer_C2C.pdf",
+      "email_subject": "Submission for Java Backend Developer | C2C Consultant",
+      "email_body": "Dear Michael,\n\nI hope this email finds you well.\n\nI came across your recent LinkedIn hiring post regarding the Java Backend Developer opportunity and would like to submit my application.\n\nPlease find my customized resume attached for your review.\n\nCandidate Summary\n\n\u2022 Candidate Name: Alex Morgan\n\u2022 Email: alex.morgan@email.com\n\u2022 Phone: +1 (555) 123-4567\n\u2022 LinkedIn Profile: https://linkedin.com/in/alexmorgan\n\u2022 Current Location: Dallas, TX\n\u2022 Work Authorization: US Citizen\n\u2022 Availability: Immediate / 2 weeks\n\u2022 Total Experience: 8+ Years\n\u2022 Expected Salary: $75 - $85/hr (Negotiable)\n\nLinkedIn Job Post\n\nPost URL:\nhttps://www.linkedin.com/posts/michaelt-datacore-java-backend-c2c-34190\n\nJob Description:\nHiring: Java Backend Developer for C2C contract.\nDirect recruiter post. Must be on C2C. W2 applicants please do not apply.\nRequirements: 6+ years Java/Spring Boot development, AWS cloud experience, relational database tuning.\nEmail resumes to michael.t@datacore.io\n\nI believe my experience aligns well with your requirements and would appreciate the opportunity to discuss the role further.\n\nThank you for your time and consideration.\n\nBest Regards,\n\nAlex Morgan\n\nAttachment:\n\u2022 Resume (PDF)\n",
+      "created_at": "2026-09-12T12:05:58.924736"
+    },
+    {
+      "id": 3,
+      "candidate_name": "Alex Morgan",
+      "recruiter_name": "Priya Sharma",
+      "recruiter_email": "priya.sharma@vertexsystems.com",
+      "company": "Vertex Systems Inc",
+      "job_title": "Lead Java Microservices Architect",
+      "job_location": "New York, NY",
+      "post_url": "https://www.linkedin.com/posts/priyasharma-vertex-lead-java-c2c-90123",
+      "job_description": "Vertex Systems is seeking a Lead Java Microservices Architect for a critical 12-month C2C consulting engagement.\nTerms: C2C (Corp-to-Corp) only. Direct client engagement.\nSkills: Java, Spring Boot, Distributed Microservices, Apache Kafka, AWS EKS, Redis caching.\nSend matching consultant profiles to priya.sharma@vertexsystems.com.",
+      "submission_date": "2026-09-12T12:05:58.809591",
+      "email_status": "Draft Prepared / Simulated",
+      "resume_filename": "Alex_Morgan_Lead_Java_Microservices_Architect_C2C.pdf",
+      "email_subject": "Submission for Lead Java Microservices Architect | C2C Consultant",
+      "email_body": "Dear Priya,\n\nI hope this email finds you well.\n\nI came across your recent LinkedIn hiring post regarding the Lead Java Microservices Architect opportunity and would like to submit my application.\n\nPlease find my customized resume attached for your review.\n\nCandidate Summary\n\n\u2022 Candidate Name: Alex Morgan\n\u2022 Email: alex.morgan@email.com\n\u2022 Phone: +1 (555) 123-4567\n\u2022 LinkedIn Profile: https://linkedin.com/in/alexmorgan\n\u2022 Current Location: Dallas, TX\n\u2022 Work Authorization: US Citizen\n\u2022 Availability: Immediate / 2 weeks\n\u2022 Total Experience: 8+ Years\n\u2022 Expected Salary: $75 - $85/hr (Negotiable)\n\nLinkedIn Job Post\n\nPost URL:\nhttps://www.linkedin.com/posts/priyasharma-vertex-lead-java-c2c-90123\n\nJob Description:\nVertex Systems is seeking a Lead Java Microservices Architect for a critical 12-month C2C consulting engagement.\nTerms: C2C (Corp-to-Corp) only. Direct client engagement.\nSkills: Java, Spring Boot, Distributed Microservices, Apache Kafka, AWS EKS, Redis caching.\nSend matching consultant profiles to priya.sharma@vertexsystems.com.\n\nI believe my experience aligns well with your requirements and would appreciate the opportunity to discuss the role further.\n\nThank you for your time and consideration.\n\nBest Regards,\n\nAlex Morgan\n\nAttachment:\n\u2022 Resume (PDF)\n",
+      "created_at": "2026-09-12T12:05:58.809605"
+    },
+    {
+      "id": 2,
+      "candidate_name": "Alex Morgan",
+      "recruiter_name": "David Chen",
+      "recruiter_email": "david.chen@cloudmatrix.io",
+      "company": "CloudMatrix Systems",
+      "job_title": "Senior Java Cloud Engineer",
+      "job_location": "Remote",
+      "post_url": "https://www.linkedin.com/posts/davidchen-recruiter-c2c-java-cloud-81723",
+      "job_description": "Immediate C2C Opening: Senior Java Cloud Engineer (100% Remote).\nLooking for an experienced Java consultant on Corp-to-Corp (C2C) basis. Strictly C2C only (no W2, no full-time, no hotlists).\nMust have:\n- Strong Java 11/17 backend development with Spring Boot & REST APIs.\n- Extensive AWS cloud infrastructure experience (ECS, Lambda, S3, RDS).\n- Strong SQL and database optimization skills.\nRate: Open on C2C for qualified candidates.\nPlease share your updated resume and contact info to david.chen@cloudmatrix.io for immediate interview.",
+      "submission_date": "2026-09-12T12:05:48.383876",
+      "email_status": "Draft Prepared / Simulated",
+      "resume_filename": "Alex_Morgan_Senior_Java_Cloud_Engineer_C2C.pdf",
+      "email_subject": "Submission for Senior Java Cloud Engineer | C2C Consultant",
+      "email_body": "Dear David,\n\nI hope this email finds you well.\n\nI came across your recent LinkedIn hiring post regarding the Senior Java Cloud Engineer opportunity and would like to submit my application.\n\nPlease find my customized resume attached for your review.\n\nCandidate Summary\n\n\u2022 Candidate Name: Alex Morgan\n\u2022 Email: alex.morgan@email.com\n\u2022 Phone: +1 (555) 123-4567\n\u2022 LinkedIn Profile: https://linkedin.com/in/alexmorgan\n\u2022 Current Location: Dallas, TX\n\u2022 Work Authorization: US Citizen\n\u2022 Availability: Immediate / 2 weeks\n\u2022 Total Experience: 8+ Years\n\u2022 Expected Salary: $75 - $85/hr (Negotiable)\n\nLinkedIn Job Post\n\nPost URL:\nhttps://www.linkedin.com/posts/davidchen-recruiter-c2c-java-cloud-81723\n\nJob Description:\nImmediate C2C Opening: Senior Java Cloud Engineer (100% Remote).\nLooking for an experienced Java consultant on Corp-to-Corp (C2C) basis. Strictly C2C only (no W2, no full-time, no hotlists).\nMust have:\n- Strong Java 11/17 backend development with Spring Boot & REST APIs.\n- Extensive AWS cloud infrastructure experience (ECS, Lambda, S3, RDS).\n- Strong SQL and database optimization skills.\nRate: Open on C2C for qualified candidates.\nPlease share your updated resume and contact info to david.chen@cloudmatrix.io for immediate interview.\n\nI believe my experience aligns well with your requirements and would appreciate the opportunity to discuss the role further.\n\nThank you for your time and consideration.\n\nBest Regards,\n\nAlex Morgan\n\nAttachment:\n\u2022 Resume (PDF)\n",
+      "created_at": "2026-09-12T12:05:48.383893"
+    },
+    {
+      "id": 1,
+      "candidate_name": "Alex Morgan",
+      "recruiter_name": "Sarah Johnson",
+      "recruiter_email": "sarah.johnson@technova.com",
+      "company": "TechNova Solutions",
+      "job_title": "Senior Java Developer",
+      "job_location": "Dallas, TX (Hybrid)",
+      "post_url": "https://www.linkedin.com/posts/sarah-johnson-technova-java-c2c-opportunity-98124",
+      "job_description": "TechNova Solutions is urgently hiring a Senior Java Developer for a long-term C2C contract role with our enterprise banking client.\nContract Type: Corp-to-Corp (C2C) only. No W2, no full-time, no third-party layers.\nDuration: 12 months + extensions.\nLocation: Dallas, TX (Hybrid 2 days onsite).\nKey Responsibilities:\n- Design and implement scalable microservices using Java 17 and Spring Boot.\n- Build real-time streaming architectures using Apache Kafka.\n- Deploy containerized microservices to AWS (ECS/EKS) with CI/CD.\n- Optimize PostgreSQL and Redis caching layers.\nRequirements:\n- 7+ years of core Java and Spring Boot experience.\n- Deep hands-on experience with AWS, Kafka, and Docker/Kubernetes.\nInterested C2C consultants, please send your resume and rate to: sarah.johnson@technova.com",
+      "submission_date": "2026-09-12T12:05:48.341665",
+      "email_status": "Draft Prepared / Simulated",
+      "resume_filename": "Alex_Morgan_Senior_Java_Developer_C2C.pdf",
+      "email_subject": "Submission for Senior Java Developer | C2C Consultant",
+      "email_body": "Dear Sarah,\n\nI hope this email finds you well.\n\nI came across your recent LinkedIn hiring post regarding the Senior Java Developer opportunity and would like to submit my application.\n\nPlease find my customized resume attached for your review.\n\nCandidate Summary\n\n\u2022 Candidate Name: Alex Morgan\n\u2022 Email: alex.morgan@email.com\n\u2022 Phone: +1 (555) 123-4567\n\u2022 LinkedIn Profile: https://linkedin.com/in/alexmorgan\n\u2022 Current Location: Dallas, TX\n\u2022 Work Authorization: US Citizen\n\u2022 Availability: Immediate / 2 weeks\n\u2022 Total Experience: 8+ Years\n\u2022 Expected Salary: $75 - $85/hr (Negotiable)\n\nLinkedIn Job Post\n\nPost URL:\nhttps://www.linkedin.com/posts/sarah-johnson-technova-java-c2c-opportunity-98124\n\nJob Description:\nTechNova Solutions is urgently hiring a Senior Java Developer for a long-term C2C contract role with our enterprise banking client.\nContract Type: Corp-to-Corp (C2C) only. No W2, no full-time, no third-party layers.\nDuration: 12 months + extensions.\nLocation: Dallas, TX (Hybrid 2 days onsite).\nKey Responsibilities:\n- Design and implement scalable microservices using Java 17 and Spring Boot.\n- Build real-time streaming architectures using Apache Kafka.\n- Deploy containerized microservices to AWS (ECS/EKS) with CI/CD.\n- Optimize PostgreSQL and Redis caching layers.\nRequirements:\n- 7+ years of core Java and Spring Boot experience.\n- Deep hands-on experience with AWS, Kafka, and Docker/Kubernetes.\nInterested C2C consultants, please send your resume and rate to: sarah.johnson@technova.com\n\nI believe my experience aligns well with your requirements and would appreciate the opportunity to discuss the role further.\n\nThank you for your time and consideration.\n\nBest Regards,\n\nAlex Morgan\n\nAttachment:\n\u2022 Resume (PDF)\n",
+      "created_at": "2026-09-12T12:05:48.341677"
+    }
+  ]
+}

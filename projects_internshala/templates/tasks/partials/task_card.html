@@ -1,0 +1,95 @@
+<div class="task-card {% if task.is_completed %}is-completed{% endif %}" id="taskCard_{{ task.id }}">
+  <div class="task-header-row">
+    <!-- AJAX Interactive Checkbox -->
+    <label class="custom-checkbox" title="Toggle Completion">
+      <input type="checkbox" 
+             class="ajax-task-toggle" 
+             data-task-id="{{ task.id }}" 
+             {% if task.is_completed %}checked{% endif %}>
+      <span class="checkbox-visual"></span>
+    </label>
+
+    <div class="task-card-title-group">
+      <div class="task-meta-top">
+        {% if task.course %}
+          <span class="badge badge-course" style="background-color: {{ task.course.color }}18; color: {{ task.course.color }}; border: 1px solid {{ task.course.color }}40;">
+            {{ task.course.code }}
+          </span>
+        {% else %}
+          <span class="badge" style="background-color: var(--bg-surface-alt); color: var(--text-muted);">
+            General
+          </span>
+        {% endif %}
+
+        <span class="badge badge-priority-{{ task.priority }}">
+          {{ task.get_priority_display }}
+        </span>
+
+        <span class="badge" style="background-color: var(--bg-surface-alt); color: var(--text-muted); font-size: 0.7rem;">
+          {{ task.get_task_type_display }}
+        </span>
+      </div>
+
+      <a href="{% url 'tasks:task_detail' task.id %}" class="task-title" style="display: block; margin-top: 6px;">
+        {{ task.title }}
+      </a>
+    </div>
+  </div>
+
+  {% if task.description %}
+    <p class="task-description">{{ task.description }}</p>
+  {% endif %}
+
+  <!-- Subtasks mini checklist progress if subtasks exist -->
+  {% with p=task.subtask_progress %}
+    {% if p.total > 0 %}
+      <div style="margin-top: 4px;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--text-muted); margin-bottom: 3px;">
+          <span>Subtasks</span>
+          <span>{{ p.completed }}/{{ p.total }} ({{ p.percentage }}%)</span>
+        </div>
+        <div class="progress-track" style="height: 5px;">
+          <div class="progress-fill" style="width: {{ p.percentage }}%;"></div>
+        </div>
+      </div>
+    {% endif %}
+  {% endwith %}
+
+  <div class="task-card-footer">
+    <div class="task-footer-left">
+      {% if task.due_date %}
+        <span class="task-date {% if task.is_overdue %}overdue{% elif task.is_due_soon %}due-soon{% endif %}">
+          <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          {% if task.is_overdue %}
+            Overdue: {{ task.due_date|date:"M d, g:i A" }}
+          {% else %}
+            Due: {{ task.due_date|date:"M d, g:i A" }}
+          {% endif %}
+        </span>
+      {% else %}
+        <span class="task-date" style="color: var(--text-subtle);">
+          No deadline
+        </span>
+      {% endif %}
+
+      <span>&bull;</span>
+
+      <span>{{ task.estimated_minutes }}m est.</span>
+    </div>
+
+    <div class="task-actions">
+      <a href="{% url 'tasks:task_update' task.id %}" class="btn btn-secondary btn-sm" title="Edit Task" style="padding: 3px 8px;">
+        <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+        </svg>
+      </a>
+      <a href="{% url 'tasks:task_delete' task.id %}" class="btn btn-secondary btn-sm" title="Delete Task" style="padding: 3px 8px; color: var(--danger);">
+        <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>

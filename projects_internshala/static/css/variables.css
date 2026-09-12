@@ -1,0 +1,154 @@
+/* ==========================================================================
+   STUDENT TASK & TO-DO MANAGER - CSS DESIGN SYSTEM & VARIABLES
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Light Theme */
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --primary-light: #eef2ff;
+  --primary-text: #ffffff;
+
+  --accent: #06b6d4;
+  --accent-light: #ecfeff;
+
+  --success: #10b981;
+  --success-light: #ecfdf5;
+  --success-text: #065f46;
+
+  --warning: #f59e0b;
+  --warning-light: #fffbeb;
+  --warning-text: #92400e;
+
+  --danger: #ef4444;
+  --danger-light: #fef2f2;
+  --danger-text: #991b1b;
+
+  --info: #3b82f6;
+  --info-light: #eff6ff;
+  --info-text: #1e40af;
+
+  /* Priority Colors */
+  --priority-urgent: #dc2626;
+  --priority-urgent-bg: #fee2e2;
+  --priority-high: #ea580c;
+  --priority-high-bg: #ffedd5;
+  --priority-medium: #2563eb;
+  --priority-medium-bg: #dbeafe;
+  --priority-low: #4b5563;
+  --priority-low-bg: #f3f4f6;
+
+  /* Surfaces & Backgrounds - Light */
+  --bg-app: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-surface-alt: #f1f5f9;
+  --bg-sidebar: #0f172a;
+  --sidebar-text: #94a3b8;
+  --sidebar-text-active: #ffffff;
+  --sidebar-hover: #1e293b;
+
+  /* Borders & Dividers */
+  --border-subtle: #e2e8f0;
+  --border-medium: #cbd5e1;
+  --border-focus: #4f46e5;
+
+  /* Typography */
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --text-subtle: #94a3b8;
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1rem;     /* 16px */
+  --space-5: 1.25rem;  /* 20px */
+  --space-6: 1.5rem;   /* 24px */
+  --space-8: 2rem;     /* 32px */
+  --space-10: 2.5rem;  /* 40px */
+  --space-12: 3rem;    /* 48px */
+
+  /* Border Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-card-hover: 0 10px 20px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Dimensions */
+  --sidebar-width: 260px;
+  --header-height: 70px;
+  --max-width: 1400px;
+}
+
+/* ==========================================================================
+   DARK THEME PALETTE
+   ========================================================================== */
+
+[data-theme="dark"] {
+  --primary: #6366f1;
+  --primary-hover: #818cf8;
+  --primary-light: rgba(99, 102, 241, 0.15);
+  --primary-text: #ffffff;
+
+  --accent: #22d3ee;
+  --accent-light: rgba(34, 211, 238, 0.15);
+
+  --success: #34d399;
+  --success-light: rgba(52, 211, 153, 0.15);
+  --success-text: #a7f3d0;
+
+  --warning: #fbbf24;
+  --warning-light: rgba(251, 191, 36, 0.15);
+  --warning-text: #fde68a;
+
+  --danger: #f87171;
+  --danger-light: rgba(248, 113, 113, 0.15);
+  --danger-text: #fecaca;
+
+  --info: #60a5fa;
+  --info-light: rgba(96, 165, 250, 0.15);
+  --info-text: #bfdbfe;
+
+  --priority-urgent: #f87171;
+  --priority-urgent-bg: rgba(239, 68, 68, 0.2);
+  --priority-high: #fb923c;
+  --priority-high-bg: rgba(249, 115, 22, 0.2);
+  --priority-medium: #60a5fa;
+  --priority-medium-bg: rgba(59, 130, 246, 0.2);
+  --priority-low: #94a3b8;
+  --priority-low-bg: rgba(148, 163, 184, 0.2);
+
+  --bg-app: #090d16;
+  --bg-surface: #131b2e;
+  --bg-surface-alt: #1e293b;
+  --bg-sidebar: #0b1120;
+  --sidebar-text: #94a3b8;
+  --sidebar-text-active: #ffffff;
+  --sidebar-hover: #1e293b;
+
+  --border-subtle: #1e293b;
+  --border-medium: #334155;
+  --border-focus: #6366f1;
+
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-subtle: #64748b;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 10px 25px -3px rgba(0, 0, 0, 0.6);
+}
